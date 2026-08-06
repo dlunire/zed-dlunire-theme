@@ -39,7 +39,7 @@ zed-dlunire-theme/
    ```toml
    [dlunire-dark-theme]
    submodule = "extensions/dlunire-dark-theme"
-   version = "0.1.0"
+   version = "1.0.0"
    ```
 
 4. Ejecuta `pnpm sort-extensions` y abre el PR.
