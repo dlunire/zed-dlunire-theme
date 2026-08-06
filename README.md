@@ -2,7 +2,7 @@
 
 Puerto oficial del tema **DLUnire Dark** de Visual Studio Code para el editor [Zed](https://zed.dev). Fondo casi negro (`#010305`), acentos cian (`#00E8FF`) y naranja (`#FF6D00`), pensado para sesiones largas de programación con alto contraste y bajo cansancio visual.
 
-Parte del ecosistema [DLUnire](https://store.dlunire.dev).
+Parte del ecosistema [DLUnire](https://dlunire.dev).
 
 ## Instalación local (dev extension)
 
@@ -17,7 +17,7 @@ Este tema también está disponible para Visual Studio Code, con la misma paleta
 
 ## Sobre DLUnire
 
-DLUnire es un ecosistema PHP orientado a APIs para construir aplicaciones web de forma rápida. Más información y planes comerciales en [store.dlunire.dev](https://store.dlunire.dev).
+DLUnire es un ecosistema PHP orientado a APIs para construir aplicaciones web de forma rápida. Más información y planes comerciales en [dlunire.dev](https://dlunire.dev).
 
 ## Estructura
 
