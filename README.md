@@ -4,6 +4,21 @@ Puerto oficial del tema **DLUnire Dark** de Visual Studio Code para el editor [Z
 
 Parte del ecosistema [DLUnire](https://dlunire.dev).
 
+## Vista previa
+
+![DLUnire Dark en Zed — controladores PHP](images/01-controller-php.webp)
+
+<details>
+<summary>Más capturas</summary>
+
+|                                                                         |                                        |
+| ----------------------------------------------------------------------- | -------------------------------------- |
+| ![Autenticación y punto de entrada](images/controller-index-theme.webp) | ![Rust y Bash](images/rust-bash.webp)  |
+| ![Svelte y TypeScript](images/svelte-route.webp)                        | ![composer.json](images/composer.webp) |
+| ![Terminal integrada](images/terminal.webp)                             |                                        |
+
+</details>
+
 ## Instalación local (dev extension)
 
 1. Clona o descarga este repositorio.
@@ -26,6 +41,13 @@ zed-dlunire-theme/
   extension.toml
   LICENSE
   README.md
+  images/
+    01-controller-php.webp
+    controller-index-theme.webp
+    rust-bash.webp
+    svelte-route.webp
+    composer.webp
+    terminal.webp
   themes/
     dlunire-dark.json
 ```
@@ -36,11 +58,11 @@ zed-dlunire-theme/
 2. Añade este repositorio como submódulo Git en `extensions/dlunire-dark-theme`.
 3. Agrega la entrada correspondiente en `extensions.toml`:
 
-   ```toml
-   [dlunire-dark-theme]
-   submodule = "extensions/dlunire-dark-theme"
-   version = "1.0.0"
-   ```
+    ```toml
+    [dlunire-dark-theme]
+    submodule = "extensions/dlunire-dark-theme"
+    version = "1.0.0"
+    ```
 
 4. Ejecuta `pnpm sort-extensions` y abre el PR.
 
