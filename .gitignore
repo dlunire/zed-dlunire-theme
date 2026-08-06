@@ -1,0 +1,4 @@
+# Excluir
+vendor
+node_modules
+*.vsix

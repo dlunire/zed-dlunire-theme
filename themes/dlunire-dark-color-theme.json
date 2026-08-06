@@ -1,0 +1,290 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "DLUnire Dark",
+    "colors": {
+        "editor.background": "#010305",
+        "editor.foreground": "#FFFFFF",
+        "editorLineNumber.foreground": "#2A3846",
+        "editorLineNumber.activeForeground": "#A0E5FF",
+        "editor.selectionBackground": "#10324C",
+        "editor.lineHighlightBackground": "#0A1017",
+        "editorCursor.foreground": "#00E8FF",
+        "activityBar.background": "#05080C",
+        "activityBar.foreground": "#00E8FF",
+        "activityBar.inactiveForeground": "#656565",
+        "sideBar.background": "#030508",
+        "sideBar.foreground": "#A1A1A1",
+        "sideBarTitle.foreground": "#FFFFFF",
+        "sideBarSectionHeader.background": "#05080C",
+        "statusBar.background": "#010305",
+        "statusBar.foreground": "#A1A1A1",
+        "statusBar.noFolderBackground": "#010305",
+        "titleBar.activeBackground": "#010305",
+        "titleBar.activeForeground": "#FFFFFF",
+        "titleBar.inactiveBackground": "#05080C",
+        "titleBar.inactiveForeground": "#656565",
+        "tab.activeBackground": "#0A1017",
+        "tab.activeForeground": "#00e1ff",
+        "tab.activeBorderTop": "#00E8FF",
+        "tab.activeBorder": "#00E8FF",
+        "tab.inactiveBackground": "#05080C",
+        "tab.inactiveForeground": "#656565",
+        "list.activeSelectionBackground": "#0D1B2A",
+        "list.activeSelectionForeground": "#00E8FF",
+        "list.hoverBackground": "#0A1017",
+        "gitDecoration.modifiedResourceForeground": "#FFFFFF",
+        "gitDecoration.untrackedResourceForeground": "#00E8FF",
+        "gitDecoration.deletedResourceForeground": "#F50057",
+        "gitDecoration.ignoredResourceForeground": "#656565",
+        "input.background": "#080D14",
+        "input.foreground": "#FFFFFF",
+        "input.border": "#2A3846"
+    },
+    "tokenColors": [
+        {
+            "name": "Comments",
+            "scope": [
+                "comment",
+                "comment.block",
+                "comment.line",
+                "comment.block.documentation"
+            ],
+            "settings": {
+                "foreground": "#656565",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "Keywords",
+            "scope": [
+                "keyword",
+                "keyword.control",
+                "keyword.operator.word",
+                "storage.modifier",
+                "storage.type",
+                "storage"
+            ],
+            "settings": {
+                "foreground": "#FF6D00"
+            }
+        },
+        {
+            "name": "Primitive types",
+            "scope": [
+                "support.type",
+                "support.type.primitive",
+                "keyword.type",
+                "storage.type.primitive"
+            ],
+            "settings": {
+                "foreground": "#FFC600"
+            }
+        },
+        {
+            "name": "Strings",
+            "scope": [
+                "string",
+                "string.quoted",
+                "string.template",
+                "string.regexp"
+            ],
+            "settings": {
+                "foreground": "#FFFFFF"
+            }
+        },
+        {
+            "name": "Numbers",
+            "scope": [
+                "constant.numeric"
+            ],
+            "settings": {
+                "foreground": "#FAA859"
+            }
+        },
+        {
+            "name": "Constants",
+            "scope": [
+                "constant",
+                "constant.language",
+                "constant.character.escape"
+            ],
+            "settings": {
+                "foreground": "#A0A0FF"
+            }
+        },
+        {
+            "name": "Variables",
+            "scope": [
+                "variable",
+                "variable.parameter",
+                "variable.other",
+                "variable.language",
+                "variable.object"
+            ],
+            "settings": {
+                "foreground": "#00E8FF"
+            }
+        },
+        {
+            "name": "Properties",
+            "scope": [
+                "variable.other.property",
+                "support.type.property-name",
+                "meta.property-name",
+                "entity.name.variable"
+            ],
+            "settings": {
+                "foreground": "#FF9100"
+            }
+        },
+        {
+            "name": "Functions",
+            "scope": [
+                "entity.name.function",
+                "support.function",
+                "meta.function-call",
+                "variable.function",
+                "entity.name.method"
+            ],
+            "settings": {
+                "foreground": "#A0E5FF"
+            }
+        },
+        {
+            "name": "Classes",
+            "scope": [
+                "entity.name.type",
+                "entity.name.class",
+                "entity.name.namespace",
+                "support.class",
+                "support.type.class",
+                "entity.name.struct",
+                "entity.name.interface",
+                "entity.name.enum",
+                "entity.name.trait"
+            ],
+            "settings": {
+                "foreground": "#00FF00"
+            }
+        },
+        {
+            "name": "Attributes / Decorators",
+            "scope": [
+                "entity.other.attribute-name",
+                "meta.annotation",
+                "storage.type.annotation"
+            ],
+            "settings": {
+                "foreground": "#F50057"
+            }
+        },
+        {
+            "name": "HTML/XML Tags",
+            "scope": [
+                "entity.name.tag"
+            ],
+            "settings": {
+                "foreground": "#1DE9B6"
+            }
+        },
+        {
+            "name": "HTML/XML Attributes",
+            "scope": [
+                "entity.other.attribute-name.html",
+                "entity.other.attribute-name.xml"
+            ],
+            "settings": {
+                "foreground": "#F50057"
+            }
+        },
+        {
+            "name": "Markdown Headings",
+            "scope": [
+                "markup.heading",
+                "markup.heading.markdown"
+            ],
+            "settings": {
+                "foreground": "#00D0FF"
+            }
+        },
+        {
+            "name": "Markdown Bold",
+            "scope": [
+                "markup.bold"
+            ],
+            "settings": {
+                "foreground": "#FFC600",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Markdown Italic",
+            "scope": [
+                "markup.italic"
+            ],
+            "settings": {
+                "foreground": "#00E8FF",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Markdown Links",
+            "scope": [
+                "markup.underline.link",
+                "string.other.link"
+            ],
+            "settings": {
+                "foreground": "#00D0FF",
+                "fontStyle": "underline"
+            }
+        },
+        {
+            "name": "Markdown Lists",
+            "scope": [
+                "markup.list"
+            ],
+            "settings": {
+                "foreground": "#FF6D00"
+            }
+        },
+        {
+            "name": "Markdown Quotes",
+            "scope": [
+                "markup.quote"
+            ],
+            "settings": {
+                "foreground": "#656565"
+            }
+        },
+        {
+            "name": "Invalid",
+            "scope": [
+                "invalid",
+                "invalid.illegal"
+            ],
+            "settings": {
+                "foreground": "#FFFFFF",
+            }
+        }
+    ],
+    "semanticHighlighting": true,
+    "semanticTokenColors": {
+        "class": "#00FF00",
+        "interface": "#00FF00",
+        "struct": "#00FF00",
+        "enum": "#00FF00",
+        "enumMember": "#A0A0FF",
+        "function": "#A0E5FF",
+        "method": "#A0E5FF",
+        "variable": "#00E8FF",
+        "parameter": "#00E8FF",
+        "property": "#FF9100",
+        "namespace": "#00FF00",
+        "keyword": "#FF6D00",
+        "number": "#FAA859",
+        "string": "#FFFFFF",
+        "type": "#FFC600",
+        "comment": "#656565",
+        "decorator": "#F50057"
+    }
+}
