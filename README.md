@@ -22,7 +22,7 @@ DLUnire es un ecosistema PHP orientado a APIs para construir aplicaciones web de
 ## Estructura
 
 ```
-dlunire-dark-theme/
+zed-dlunire-theme/
   extension.toml
   LICENSE
   README.md
