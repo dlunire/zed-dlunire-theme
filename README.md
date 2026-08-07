@@ -36,33 +36,29 @@ DLUnire es un ecosistema PHP orientado a APIs para construir aplicaciones web de
 
 ## Estructura
 
-```
 zed-dlunire-theme/
-  extension.toml
-  LICENSE
-  README.md
-  images/
-    01-controller-php.webp
-    controller-index-theme.webp
-    rust-bash.webp
-    svelte-route.webp
-    composer.webp
-    terminal.webp
-  themes/
-    dlunire-dark.json
-```
+extension.toml
+LICENSE
+README.md
+images/
+01-controller-php.webp
+controller-index-theme.webp
+rust-bash.webp
+svelte-route.webp
+composer.webp
+terminal.webp
+themes/
+dlunire-dark.json
 
 ## Publicación en el registro oficial
 
 1. Haz fork de [`zed-industries/extensions`](https://github.com/zed-industries/extensions).
-2. Añade este repositorio como submódulo Git en `extensions/dlunire-dark-theme`.
+2. Añade este repositorio como submódulo Git en `extensions/dlunire-dark`.
 3. Agrega la entrada correspondiente en `extensions.toml`:
 
-    ```toml
-    [dlunire-dark-theme]
-    submodule = "extensions/dlunire-dark-theme"
-    version = "1.0.0"
-    ```
+    [dlunire-dark]
+    submodule = "extensions/dlunire-dark"
+    version = "1.0.1"
 
 4. Ejecuta `pnpm sort-extensions` y abre el PR.
 
