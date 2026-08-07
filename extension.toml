@@ -3,5 +3,5 @@ name = "DLUnire Dark"
 version = "1.0.1"
 schema_version = 1
 authors = ["David Eduardo Luna Montilla <info@dlunire.dev>"]
-description = "Tema oscuro de alto contraste con acentos cian y naranja, parte del ecosistema DLUnire. Puerto oficial del tema DLUnire Dark de Visual Studio Code."
+description = "A high-contrast ultra-dark theme featuring cyan and orange accents, part of the DLUnire ecosystem. Official port of the DLUnire Dark Visual Studio Code theme."
 repository = "https://github.com/dlunire/zed-dlunire-theme"
